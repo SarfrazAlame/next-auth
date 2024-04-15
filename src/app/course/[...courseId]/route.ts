@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 
-export function GET() {
+export function GET(){
     return NextResponse.json({
-        message: "Sarfraz Khan"
+        message:{
+            name:"Sarfraz "
+        }
     })
 }
